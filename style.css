@@ -1,0 +1,155 @@
+*{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+	font-family: 'Poppins', sans-serif;
+}
+.main{
+	height: 100vh;
+	width: 100%;
+	background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url("img/bruno.jpg") ;
+	background-size: cover;
+	background-position: center;
+}
+.logo{
+	color: white;
+	font-size: 30px;
+	font-weight: 400;
+	letter-spacing: 2px;
+	cursor: pointer;
+}
+.nav{
+	width: 60%;
+	height: 150%;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	margin: auto;
+}
+.button{
+	color: rgba(255, 255, 255, 1);
+	background-color: #262c37 ;
+	height: 50px;
+	width: 160px;
+	padding: 11px 22px;
+	border: none;
+	outline: none;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+	border-radius: 5px;
+	margin-left: 900px;
+}
+
+.button:hover{
+	color: rgba(255, 255, 255, 1);
+	transform: scale(1.1);
+	cursor: pointer;
+	transition: .3s;
+}
+.button a{
+	color: whitesmoke;
+	text-decoration: none;
+
+}
+
+.button1{
+	color: rgba(255, 255, 255, 1);
+	background-color: #262c37 ;
+	height: 50px;
+	width: 160px;
+	padding: 11px 22px;
+	border: none;
+	outline: none;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+	border-radius: 5px;
+	margin-left: 20px;
+}
+.button1:hover{
+	color: rgba(255, 255, 255, 1);
+	transform: scale(1.1);
+	cursor: pointer;
+	transition: .3s;
+}
+.button1 a{
+	color: whitesmoke;
+	text-decoration: none;
+
+}
+
+.button2{
+	color: rgba(255, 255, 255, 1);
+	background-color: #262c37 ;
+	height: 50px;
+	width: 160px;
+	padding: 11px 22px;
+	border: none;
+	outline: none;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+	border-radius: 5px;
+	margin-left: 20px;
+
+}
+.button2 a{
+	color: whitesmoke;
+	text-decoration: none;
+
+}
+
+.button2:hover{
+	color: rgba(255, 255, 255, 1);
+	transform: scale(1.1);
+	cursor: pointer;
+	transition: .3s;
+}
+.text{
+	position: absolute;
+	top: 50%;
+	right: 19%;
+	transform: translate(-50%);
+
+}
+h1{
+	
+	color: #f6f7fb;
+	font-size: 170px;
+	line-height:160px;
+	letter-spacing: 1px;
+	font-family: 'Josefin Sans', sans-serif;
+	font-weight: 900;
+	margin-bottom: 10px;
+}
+small{
+	color: white;
+	font-size: 21px;
+	letter-spacing: 2px;
+	margin-left: 30px;
+}
+.social{
+	position: absolute;
+	left: 90%;
+	bottom: 30px;
+
+}
+.social ul li{
+	list-style: none;
+	display: block;
+	margin-bottom: 10px;
+
+}
+.social ul li a{
+	color: black ;
+	text-align: center;
+	font-size: 17px;
+	cursor: pointer;
+
+}
+.social ul li:hover{
+	transform: translate(-10px) scale(1.2);
+	transition: .3s;
+
+}
+
+
+
